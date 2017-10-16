@@ -23,7 +23,7 @@ def gen(n, m, N):
     return data[1:,:]
 
 def getData():
-    N = 2
+    N = 15
     square = 2
     ret = gen(square, square, N)
     x, y = ret[:,:2], ret[:,2]

@@ -55,7 +55,7 @@ def LOO(Xl, Y, maxK):
     return bestK
 
 
-def classification_map(classifier, inp, out, xfrom=-2, xto=10, ticks=100):
+def classification_map(classifier, inp, out, xfrom=-2, xto=5, ticks=100):
     # meshgrid
     h = (xto - xfrom) / ticks
     xx, yy = np.arange(xfrom, xto, h), np.arange(xfrom, xto, h)
@@ -80,7 +80,7 @@ def classification_map(classifier, inp, out, xfrom=-2, xto=10, ticks=100):
 iris = datasets.load_iris()
 Xl = iris.data[:, [2,3]]
 Y = iris.target
-#Xl,Y = data.getData()
+Xl,Y = data.getData()
 
 #K = LOO(Xl,Y, Xl.shape[0])
 #print(K)
