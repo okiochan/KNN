@@ -1,2 +1,2 @@
 # KNN
-![](https://raw.githubusercontent.com/okiochan/fris-stolp/master/knn_k=3.png)
+![](https://raw.githubusercontent.com/okiochan/KNN/master/knn_k=3.png)
